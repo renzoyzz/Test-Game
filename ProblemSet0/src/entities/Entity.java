@@ -4,6 +4,7 @@ import handler.Handler;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
 
 public abstract class Entity {
 
@@ -16,6 +17,7 @@ public abstract class Entity {
 	protected ID id;
 	protected int width;
 	protected int height;
+	protected BufferedImage img;
 	protected Handler handler;
 	
 	
